@@ -36,7 +36,7 @@
             </table>
           </div>
         </div>
-        <div>
+        <div class="px-5">
           <a href="#"
             class="text-primary-500 font-medium border border-primary-500 rounded-[0.625rem] px-3.25 py-2.5 whitespace-nowrap">
             Change Plan
