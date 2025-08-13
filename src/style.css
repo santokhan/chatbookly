@@ -1,0 +1,37 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --height-header: 3.75rem;
+  --width-app-container: 918px;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary-500: #335CFF;
+  --color-primary-600: #335CFF;
+  --color-soft: hsla(210, 30%, 97%, 1);
+  --color-soft-200: hsla(223, 16%, 90%, 1);
+  --color-sub-600: hsla(222, 11%, 36%, 1);
+  --color-weak-50: hsla(210, 30%, 97%, 1);
+  --color-secondary: hsla(222, 11%, 36%, 1);
+  --color-strong: hsla(222, 32%, 8%, 1);
+  --color-border-light: hsla(220, 18%, 90%, 1);
+  --shadow-regular: 0px 1px 2px 0px hsla(222, 33%, 6%, 0.03);
+}
+
+body {
+  @apply bg-weak-50;
+}
+
+.app-container {
+  width: var(--width-app-container);
+}
