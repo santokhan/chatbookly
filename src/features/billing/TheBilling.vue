@@ -11,26 +11,26 @@
     <div class="space-y-3">
       <h5 class="font-medium text-secondary">Active Plan</h5>
       <!-- Table -->
-      <div class="border border-soft-200 rounded-[0.625rem] bg-white flex items-center gap-4 p-5">
+      <div class="border border-soft-200 rounded-[0.625rem] bg-white flex items-center gap-4 py-5">
         <div class="overflow-x-auto grow">
           <div class="min-w-full inline-block align-middle">
             <table class="min-w-full whitespace-nowrap">
               <thead class="text-secondary font-medium text-sm">
                 <tr>
-                  <th class="text-start py-1">PLAN NAME</th>
-                  <th class="text-start py-1">PLAN</th>
-                  <th class="text-start py-1">COST</th>
-                  <th class="text-start py-1">PURCHASE DATE</th>
-                  <th class="text-start py-1">EXPIRY DATE</th>
+                  <th class="px-5 text-start py-1">PLAN NAME</th>
+                  <th class="px-5 text-start py-1">PLAN</th>
+                  <th class="px-5 text-start py-1">COST</th>
+                  <th class="px-5 text-start py-1">PURCHASE DATE</th>
+                  <th class="px-5 text-start py-1">EXPIRY DATE</th>
                 </tr>
               </thead>
               <tbody class="font-medium text-strong">
                 <tr>
-                  <td class="py-1">Business</td>
-                  <td class="py-1">Yearly</td>
-                  <td class="py-1">$198.00</td>
-                  <td class="py-1">10 Aug 2025</td>
-                  <td class="py-1">10 Aug 2026</td>
+                  <td class="px-5 py-1">Business</td>
+                  <td class="px-5 py-1">Yearly</td>
+                  <td class="px-5 py-1">$198.00</td>
+                  <td class="px-5 py-1">10 Aug 2025</td>
+                  <td class="px-5 py-1">10 Aug 2026</td>
                 </tr>
               </tbody>
             </table>
